@@ -66,24 +66,105 @@ body{
     text-transform: uppercase !important;
 }
 
-.card-pic{
-    width: 50%;
-    background-color: hsl(277, 50%, 46%);
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
 
 
-img{
-    height: 400px;
-    width: 471px;
-    object-fit: fill;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    opacity: 0.4;
-}
 
 .attribution{
     margin-top: 200px;
     margin-bottom: 30px;
+}
+
+
+/***********Mobile View***********/
+@media(max-width:1440px){
+    .card-text #nd{
+        display: none;
+    }
+
+    .card-pic{
+        width: 50%;
+        background-color: hsl(277, 50%, 46%);
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    img{
+        height: 400px;
+        width: 471px;
+        object-fit: fill;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        opacity: 0.4;
+    }
+}
+
+@media (max-width:670px){
+    #card{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 99%;
+        width: 80%;
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+
+    .card-pic{
+        width: 100%;
+        background-color: hsl(277, 50%, 46%);
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        height: 35%;
+    }
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        opacity: 0.4;
+    }
+
+    .card-text #st{
+        display: none;
+    }
+
+    .card-text #nd{
+        display: block;
+    }
+
+    .card-text{
+        height: 70%;
+        width: 90%;
+        
+    }
+    
+    .card-text h4, p{
+        margin-left: 40px;
+        text-align: center;
+    }
+    
+    .card-text p{
+        font-size: 15px !important;
+        line-height: 25px;
+    }
+    
+
+    .card-text h4{
+        font-size: 25px;
+    }
+
+    .card-stats{
+        margin-left: 0px !important;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    #stat{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
 }
