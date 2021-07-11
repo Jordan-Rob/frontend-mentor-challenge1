@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
 body{
     margin: 0;
     padding: 0;
     background-color: hsl(233, 47%, 7%);
+    color: #fff;
+    font-family: 'Lexend Deca';
 }
 
 #card{
@@ -21,8 +25,62 @@ body{
     width: 50%;
 }
 
+.card-text h4, p{
+    margin-left: 80px;
+}
+
+.card-text div{
+    margin-left: 40px;
+}
+
+.card-text h4{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size:30px;
+}
+
+.card-text h4 span{
+    color: hsl(277, 64%, 61%);
+}
+
+.card-text p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 11px !important;
+    line-height: 25px;
+}
+
+
+.card-stats{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#stat{
+    font-size: 20px;
+}
+
+#stat span{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+}
+
 .card-pic{
     width: 50%;
+    background-color: hsl(277, 50%, 46%);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+img{
+    height: 400px;
+    width: 471px;
+    object-fit: fill;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    opacity: 0.4;
 }
 
 .attribution{
