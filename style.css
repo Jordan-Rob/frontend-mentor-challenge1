@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(233, 47%, 7%);
+}
+
+#card{
+    margin-top: 100px;
+    margin-left: 200px;
+    background-color: hsl(244, 38%, 16%);
+    border: none;
+    border-radius: 15px;
+    height: 400px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.card-text{
+    width: 50%;
+}
+
+.card-pic{
+    width: 50%;
+}
+
+.attribution{
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
